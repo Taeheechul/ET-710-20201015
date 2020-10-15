@@ -12,6 +12,7 @@ import { ResumeComponent } from './resume/resume.component';
 import { ResumeProfileComponent } from './resume/resume-profile/resume-profile.component';
 import { ResumeExpComponent } from './resume/resume-exp/resume-exp.component';
 import { ResumeEduComponent } from './resume/resume-edu/resume-edu.component';
+import { ResumeFooterComponent } from './resume/resume-footer/resume-footer.component';
 
 @NgModule({
   imports: [
@@ -32,7 +33,8 @@ import { ResumeEduComponent } from './resume/resume-edu/resume-edu.component';
     ResumeComponent,
     ResumeProfileComponent,
     ResumeExpComponent,
-    ResumeEduComponent
+    ResumeEduComponent,
+    ResumeFooterComponent
   ],
   bootstrap: [ AppComponent ]
 })
