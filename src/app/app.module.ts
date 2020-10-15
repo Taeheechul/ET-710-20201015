@@ -9,6 +9,9 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { ResumeComponent } from './resume/resume.component';
+import { ResumeProfileComponent } from './resume/resume-profile/resume-profile.component';
+import { ResumeExpComponent } from './resume/resume-exp/resume-exp.component';
+import { ResumeEduComponent } from './resume/resume-edu/resume-edu.component';
 
 @NgModule({
   imports: [
@@ -26,7 +29,10 @@ import { ResumeComponent } from './resume/resume.component';
     ProductListComponent,
     ProductAlertsComponent,
     ProductDetailsComponent,
-    ResumeComponent
+    ResumeComponent,
+    ResumeProfileComponent,
+    ResumeExpComponent,
+    ResumeEduComponent
   ],
   bootstrap: [ AppComponent ]
 })
